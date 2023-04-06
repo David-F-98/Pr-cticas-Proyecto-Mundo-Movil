@@ -1,0 +1,26 @@
+.welcome  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #000000;
+    text-align: center;
+
+
+
+    padding-top: 2.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.titulo__welcome{
+    font-family: Pacifico, cursive;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.texto__welcome{
+    line-height: 1.5;
+    font-size: 1.25rem;
+    padding: 0 25rem 0 25rem;
+    margin-bottom: 1rem;
+}

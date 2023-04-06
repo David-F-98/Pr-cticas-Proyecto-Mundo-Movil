@@ -7,33 +7,57 @@
         <title>Mundo Movil</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="img/logo-apeperia.svg">
+        <link rel="shortcut icon" href="img/logo.png">
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/head.css" rel="stylesheet">
-        <link href="css/llamada.css" rel="stylesheet">
+        <link rel="stylesheet" href="Css/header.css">
+        <link href="css/welcome.css" rel="stylesheet">
         <link href="css/bases.css" rel="stylesheet">
         <link href="/favicon.ico" type="image/x-icon" rel="icon"/>
         <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="Css/sobre-nosotros.css">
     </head>
     <body>
         <header class="head container">
-            <img class="head__logo" src="img/logo-apeperia.svg" alt="Logo Mundo Movil">
+            <img class="head__logo" src="img/logo_nombre.png" alt="Logo Mundo Movil">
             <nav class="head__navegacion">
                 <ul>
-                    <li class="head__enlace"><a href="index.html">Inicio</a></li>
-                    <li class="head__enlace"><a href="productos.html">Productos</a></li>
-                    <li class="head__enlace"><a href="contactos.html">Contacto</a></li>
+                    <li class="head__enlace"><a class="head__link head__active" href="index.html">Inicio</a></li>
+                    <li class="head__enlace"><a class="head__link" href="productos.html">Productos</a></li>
+                    <li class="head__enlace"><a class="head__link" href="contactos.html">Contacto</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <section class="llamada container">
-                <h1 class="llamada__titulo">Aplicaciones en la medida</h1>
-                <p class="llamada__texto">Apeperia es una empresa emergente con una manera inovadora de comprar y crear aplicaciones móviles y web.</p>
-            </section>
+        <main class="principal">
             
+            <section class="welcome container">
+                <h2 class="titulo__welcome">¡Bienvenidos!</h2>
+                <p class="texto__welcome">¡Bienvenidos al mejor lugar para conseguir el celular de tus sueños! Aquí en Mundo Móvil encontrarás la más amplia selección de dispositivos de última generación, con la mejor calidad y a precios increíbles. ¡No esperes más para tener en tus manos el celular que siempre has querido! Nuestro equipo de expertos están listos para ayudarte a encontrar el celular perfecto para ti. ¡Ven y visitanos hoy mismo y sorpréndete con nuestras ofertas especiales!</p>
+            </section>
+            <section class="sobre_nosotros container">
+                <div class="sobre_nosotros__contenido">
+                    <h2 class="sobre_nosotros__titulo">Sobre nosotros</h2>
+                    <p class="sobre_nosotros__texto">
+                        ¡Creamos la mejor experiencia perzoanlizada para nuestros clientes!
+                    </p>
+                    <p class="sobre_nosotros__texto">
+                        Desde nuestros inicios, nos hemos dedicado a seleccionar cuidadosamente los mejores dispositivos móviles del mercado para ofrecerte una amplia variedad de opciones que se adapten a tus necesidades y presupuesto. Pero nuestro compromiso va más allá de simplemente vender productos; nos esforzamos por brindarte un servicio excepcional que te haga sentir valorado y satisfecho.
+                        Somos un equipo de expertos apasionados por la tecnología móvil que está constantemente investigando y aprendiendo sobre las últimas tendencias y avances en la industria.
+                    </p>
+                    <p class="sobre_nosotros__texto sobre-nosotros__texto--destacado sobre-nosotros__texto--division">
+                        ¡Tenemos un equipo especializado y exclusivo para tu asesoria!
+                    </p>
+                    <ul class="sobre_nosotros__plataformas">
+                        <li><img src="img/android.png" alt="Ícono del Android"></li>
+                        <li><img src="img/blackberry.png" alt="Ícono del Blackberry"></li>
+                        <li><img src="img/apple.png" alt="Ícono de la Apple"></li>
+                        <li><img src="img/windowsphone.png" alt="Ícono del Windows"></li>
+                    </ul>
+                </div>
+                <img src="img/asesoria-celular.jpg" alt="Sobre nosotros" class="sobre_nosotros__imagen">
+            </section>
             <footer class="footer container">
                 <img src="img/logo-apeperia.svg" alt="" class="footer__logo">
                 <ul class="footer__social">
