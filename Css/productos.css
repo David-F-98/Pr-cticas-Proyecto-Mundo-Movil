@@ -1,0 +1,45 @@
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+.producto__boton{
+    font-size: 1.25rem;
+    background-color: #b0d63d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+.producto__boton:hover{
+    cursor: pointer;
+    background: #2F9C1F;
+    scale: 1.1;
+}
+.producto__contenido{
+    padding: 1rem;
+}
+.producto__descripcion{
+    margin: 1rem 0 1rem;
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.producto__imagen{
+    height: 20rem;
+    width: 15rem;
+}
+.producto__imagen__forro{
+    height: 20rem;
+    width: 30rem;
+}
+.producto__titulo{
+    font-size: 1.4375rem;
+}
+.producto{
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}

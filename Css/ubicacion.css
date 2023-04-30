@@ -8,7 +8,7 @@
 
 .mapa-contenido{
     margin: 20px auto 0;
-    width: 940px;
+    width: 80%;
     padding: 40px;
 }
 .principal p{
@@ -24,4 +24,10 @@
 .seleccion{
     padding: 1rem;
     font-size: 1.3rem;
+}
+.subtitulo-mapa{
+    color: #8C8888;
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-family: Roboto;
 }
