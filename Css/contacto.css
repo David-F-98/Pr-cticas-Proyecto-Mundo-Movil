@@ -1,0 +1,46 @@
+.contenido-contacto{
+    padding: 20px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+}
+
+#mensaje{
+    height: 200px;
+    width: 530px;
+}
+
+#nombre-apellido , #correo , #telefono{
+    padding: 8px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #b0d63d;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #2F9C1F;
+    transform: scale(1.11);
+}

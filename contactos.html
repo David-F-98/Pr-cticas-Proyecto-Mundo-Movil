@@ -7,6 +7,7 @@
         <title>Contacto</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="img/logo.png">
         <link href="css/reset.css" rel="stylesheet">
@@ -16,6 +17,8 @@
         <link href="css/bases.css" rel="stylesheet">
         <link href="/favicon.ico" type="image/x-icon" rel="icon"/>
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="Css/contacto.css">
+        <link rel="stylesheet" href="Css/ubicacion.css">
     </head>
     <body>
         <header class="head container">
@@ -30,7 +33,48 @@
         </header>
         <main>
             <section class="llamada container">
-                
+                <form>
+                    <div>
+                        <label for="nombre-apellido">Nombre y Apellido</label>
+                        <input type="text" id="nombre-apellido" class="input-padrom" required >
+    
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" class="input-padrom" required placeholder="email@dominio.com">
+    
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" class="input-padrom" required placeholder="(xx) xxx-xxx-xx">
+    
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" class="input-padrom" ></textarea>
+                    </div>
+    
+                    <fieldset>
+                        <legend class="test" id="test">Seleccione método de contacto</legend>
+                        <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                        <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>                     
+                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>      
+                    </fieldset>
+                    <fieldset>
+                            
+                        <legend>¿En qué horario desea ser atendido?</legend>
+                        <select class="seleccion">
+                            <option>Mañana</option>
+                            <option>Tarde</option>
+                            <option>Noche</option>
+                        </select>
+                    </fieldset>
+    
+                    <label class="checkbox"><input type="checkbox" checked>Le gustaría recibir novedades de la barbería alura</label>
+                    <input type="submit" value="Enviar formulario" class="enviar">
+    
+                </form>
+            </section>
+            <section class="mapa">
+                <h3 class="titulo-principal">Nuestra ubicación</h3>
+                <p>Nuestro establecimiento esta ubicado mjuy cerca del centro de Subachoque</p>
+                <div class="mapa-contenido">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.0632479066808!2d-74.17881483121606!3d4.929077828716321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e407e5e2a3a5737%3A0x69173a90916e6319!2sMundo%20Movil!5e0!3m2!1ses-419!2sco!4v1682824818804!5m2!1ses-419!2sco" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </section>
             <footer class="footer container">
                 <img src="img/logo-apeperia.svg" alt="" class="footer__logo">

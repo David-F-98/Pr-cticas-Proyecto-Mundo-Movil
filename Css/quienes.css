@@ -1,0 +1,57 @@
+.personas{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+}
+.quienes__descripcion{
+    color: #8C8888;
+    font-size: 1.75rem;
+    font-weight: 300;
+    font-family: Roboto;
+}
+.quienes__titulo{
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.quienes{
+    padding: 5rem;
+    text-align: center;
+}
+.persona__funcion{
+    color: #8C8888;
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: Roboto;
+}
+.persona__imagen{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+.persona__imagen--david{
+    background-image: url('../img/Personas/David.jpg');
+}
+.persona__imagen--camila{
+    background-image: url('../img/Personas/Camila.jpg');
+}
+.persona__imagen--daniel{
+    background-image: url('../img/Personas/Daniel.jpg');
+}
+.persona__nombre{
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.persona{
+    display: flex;
+    flex-direction: column;
+}

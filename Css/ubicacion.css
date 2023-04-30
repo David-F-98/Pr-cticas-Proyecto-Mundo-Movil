@@ -1,0 +1,27 @@
+.mapa{
+    background: linear-gradient(rgb(255, 255, 255), rgb(153, 153, 153));
+}
+
+.mapa p{
+    text-align: center;
+}
+
+.mapa-contenido{
+    margin: 20px auto 0;
+    width: 940px;
+    padding: 40px;
+}
+.principal p{
+    text-align: center;
+}
+.titulo-principal{
+    text-align: center;
+    font-family: Pacifico, cursive;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.seleccion{
+    padding: 1rem;
+    font-size: 1.3rem;
+}
