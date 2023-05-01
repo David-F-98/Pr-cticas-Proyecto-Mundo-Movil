@@ -1,0 +1,71 @@
+/* RESPONSIVE 1024PX */
+@media screen and (max-width: 1024px) {
+    .head{
+        flex-direction: column;
+    }
+    .head__nav{
+        padding-bottom: 1rem;
+    }
+    .texto__welcome{
+        padding: 2rem 1rem;
+    }
+    .sobre_nosotros{
+        padding-top: 0;
+    }
+    .principal p {
+        margin: 0 1rem;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .sobre_nosotros {
+        flex-direction: row;
+    }
+    .sobre_nosotros__imagen{
+        padding-top: 0;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .producto {
+        align-items: center;
+    }
+    .producto__imagen {
+        height: 15rem;
+        width: 10rem;
+    }
+    .producto__imagen__forro {
+        height: 13rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .head__logo {
+        scale: 0.55;
+    }
+    .head__enlace {
+        display: contents;
+    }
+    .head__link {
+        margin: 0 1rem 0 1rem;
+    }
+    .titulo__welcome {
+        font-size: 3rem;
+    }
+    .texto__welcome {
+        font-size: 1rem;
+    }
+    .sobre_nosotros__texto {
+        font-size: 0.8rem;
+        line-height: 1.8;
+    }
+    .quienes {
+        padding: 1.5rem;
+    }
+    .titulo-principal {
+        font-size: 3rem;
+    }
+    #mensaje {
+        width: 90%;
+    }
+}

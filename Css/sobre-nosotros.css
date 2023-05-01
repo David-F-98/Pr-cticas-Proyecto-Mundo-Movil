@@ -2,6 +2,7 @@
     display: flex;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    flex-direction: column;
 }
  .sobre_nosotros__titulo {
     color: var(--fuente-ceniza-oscuro);
@@ -32,5 +33,6 @@
 
 .sobre_nosotros__imagen{
     margin: 0 2rem 0 2rem;
+    padding: 0 0 1rem 0;
 }
 
